@@ -57,14 +57,11 @@ API para gestão de encomendas e movimentos de stock, com simulação de envio d
 - `POST   /orders` → Criar nova
 - `PUT    /orders/{id}` → Atualizar
 - `DELETE /orders/{id}` → Remover
-- `GET    /orders/{id}/progress` → Ver progresso
-- `GET    /orders/{id}/stock-movements` → Movimentos de stock associados
 
 ### Movimentos de Stock
 - `GET    /stock-movements` → Listar todos
 - `GET    /stock-movements/{id}` → Obter por ID
 - `POST   /stock-movements` → Registar novo
-- `PUT    /stock-movements/{id}` → Atualizar
 - `DELETE /stock-movements/{id}` → Remover
 
 ## Notas Adicionais
